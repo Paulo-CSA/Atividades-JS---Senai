@@ -11,8 +11,8 @@ let salario = parseFloat(capSalario.question("Informe seu salario: "));
 let acrescimo = salario + (salario * 10 / 100)
 
 if (salario < 1000) {
-console.log("Funcionario: " + nome,"- Cargo: " + cargo,"- Salario: " + acrescimo);
+    console.log("Funcionario: " + nome, "- Cargo: " + cargo, "- Salario: " + acrescimo);
 
 } else {
-console.log("Funcionario: " + nome,"- Cargo: " + cargo,"- Salario: " + salario);
+    console.log("Funcionario: " + nome, "- Cargo: " + cargo, "- Salario: " + salario);
 }

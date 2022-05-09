@@ -1,7 +1,7 @@
 //Faça um programa que receba o nome, o peso e a altura de uma
 //pessoa. Calcule e imprima o nome e o IMC dessa pessoa - IMC = peso / (altura * altura).
 
-let CapNome = require("readline-sync"); 
+let CapNome = require("readline-sync");
 let CapAltura = require("readline-sync");
 let CapPeso = require("readline-sync");
 
@@ -11,4 +11,4 @@ let peso = parseFloat(CapPeso.question("Informe seu peso: "));
 
 let IMC = peso / (altura * altura);
 
-console.log(nome,",seu IMC:",IMC);
+console.log(nome, ",seu IMC:", IMC);
