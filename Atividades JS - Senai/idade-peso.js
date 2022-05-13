@@ -28,6 +28,7 @@ for (let i = 1; i <= 5; i++) {
           idadeTotalM.push(idade);
         
      }
+     
 }
 for (let i = 0; i < idadeTotalH.length; i++) {
      somaH += parseInt(idadeTotalH[i]);
